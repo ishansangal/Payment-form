@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form>
+    <div class="container">
+    <h1>Payment Form</h1>
+    <h2>User Details</h2>
+    <h6>Required fields *</h6>
+    <hr>
+    Name *
+    <input type="Name" name="Name" required>
+    <hr>
+    <fieldset>
+        <legend>Gender*</legend>
+    Male
+    <input type="radio" id="male" name="male">
+    Female
+    <input type="radio" id="Female" name="Female">
+    </fieldset>
+    <hr>
+    Address*
+    <textarea name="Address" rows="5" cols="9" required></textarea>
+    <hr>
+    email*
+    <input type="email" name="email" id="email" required>
+    <hr>
+    Pincode*
+    <input type="number" name="number" id="number" required>
+    <hr>
+    <h2>Payment Details</h2>
+    <hr>
+    Card Type*
+    <select name="card_type" id="card_type" required>
+        <option value="debit card">Select a card type</option>
+        <option value="debit card">Debit card</option>
+        <option value="master card">Master Card</option>
+    </select>
+    <hr>
+    Card number*
+    <input type="number" id="card number" name="card number" required>
+    <hr>
+    Expiry Date*
+    <input type="date" id="date" name="date" required>
+    <hr>
+    CVV*
+    <input type="password" id="password" name="password" required>
+    <hr>
+    <input type="submit" value="Pay Now">
+</div>
+   </form> 
+</body>
+</html>
